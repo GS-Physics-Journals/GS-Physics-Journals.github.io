@@ -1,0 +1,173 @@
+<!--TO DO-->
+<!--
+
+Animations{
+    social media hover
+    brand name hover
+    vectors in the bg moves with the mouse (optional)
+}
+
+-->
+<!DocType HTML>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>GSPJ</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/Styles.css">
+    <!-- Tab Icon -->
+    <link rel="icon" type="image/png" href="images/Ico.png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <!-- Header-->
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div id="nav-bar" class="container">
+                <div class="navbar-header">
+
+                    <!--Social-->
+                    <div>
+                        <a href="#"><img class="sm-nav" src="images/Facebook.png"></a>
+                        <a href="#"><img class="sm-nav" src="images/linkedin.png"></a>
+                        <a href="#"><img class="sm-nav" src="images/Email.png"></a>
+                    </div>
+
+                    <!-- Brand name -->
+                    <div class="navbar-brand">
+                        <a href="Home.html" style="text-decoration: none;">
+                            <h1>Gharbiya STEM Physics Journal</h1>
+                        </a>
+                    </div>
+                    <!-- Hamburger nav -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- navs -->
+                    <div id="collapsable-nav" class="collapse navbar-collapse pull-right">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="Home.html" class="is-active">Home</a>
+                            </li>
+                            <li>
+                                <a href="Articles.html">Articles</a>
+                            </li>
+                            <li>
+                                <a href="About.html">About</a>
+                            </li>
+
+                            <li>
+                                <div id="sm-collapse">
+                                    <a href="#"><img class="sm-collapse-ic" src="images/Facebook.png"></a>
+                                    <a href="#"><img class="sm-collapse-ic" src="images/linkedin.png"></a>
+                                    <a href="#"><img class="sm-collapse-ic" src="images/Email.png"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Collapsable nav-->
+                </div>
+                <!--navbar-header-->
+            </div>
+            <!--Container-->
+        </nav>
+        <!--header nav-->
+    </header>
+
+
+    <!-- Main content -->
+    <div id="main" class="container-fluid no-padding">
+        <img src="images/Home bg.png" alt="jumptroon" class="img-responsive">
+
+        <div id="qoute" style="color: #fff;">
+            <span style="color: #e48509;">GSPJ</span>
+            ,<br>Satisfy Your <br>Curiosity For
+            <span style="color: #e48509;">Phys</span>
+            <span style="color: #292827; margin-left: -1vw;">ics</span>
+        </div>
+
+
+    </div>
+
+    <div class="container">
+        <span id="recent">Recent Articles</span>
+        <a href="Articles.html"><button class="btn1" onclick="Articles.html">More</button></a>
+        <hr id="re">
+    </div>
+
+    <button id="slideLeft0" type="button">&lt;</button>
+    <button id="slideRight0" type="button">&gt;</button>
+
+    <div id="Recent" class="wrapper">
+        <div class="article">box1</div>
+        <div class="article">box2</div>
+        <div class="article" style="margin-right: 0;">box3</div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section class="col-sm-1"></section>
+                <section class="col-sm-4">
+                    <span>About Us</span>
+                    <br><span class="brandF">Gharbiya STEM Physics Journal</span>
+                    <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The first physics review articles website held up by
+                    Gharbiya
+                    STEM high school students from Egypt. It will provide pi-weekly review articles discussing
+                    specific
+                    topics from different physics fields.
+                    The website will give the physics enthusiastics the opportunity to explore different advanced
+                    concepts in a simple, and concluding way that will intellectually entertain them.
+                    <hr class="visible-xs">
+                </section>
+                <section class="col-sm-3"></section>
+                <section class="col-sm-4">
+                    <span>Contact Us</span>
+                    <br>
+                    <img src="images/FacebookF.png" style="margin-left: 8px; margin-right: 8px;"><a href="#">Gharbiya
+                        STEM Physics
+                        Journal</a>
+                    <br>
+                    <img src="images/linkedinF.png" style="margin-left: 3px; margin-right: 3px;"><a href="#">Gharbiya
+                        STEM Physics
+                        Journal</a>
+                    <br>
+                    <img src="images/EmailF.png"><a href="#">GSPJ@gmail.com</a>
+                    <hr class="visible-xs">
+
+                    <form action="">
+                        <span>Join Our Newsletter</span>
+                        <div class="email-box">
+                            <i> <img src="images/newsletter.png" alt=""></i>
+                            <input class="tbox" type="email" name="" value="" placeholder="Enter your email">
+                            <button class="btn" type="button" name="button">Subscribe</button>
+                        </div>
+                    </form>
+                </section>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/HomeScript.js"></script>
+</body>
+
+</html>
