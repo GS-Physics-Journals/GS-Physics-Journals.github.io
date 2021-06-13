@@ -1,3 +1,10 @@
+function popShow() {
+    document.getElementById("pop").style.right = "2%";
+}
+
+function popClose() {
+    document.getElementById("pop").style.right = "-30%";
+}
 
 const buttonRight0 = document.getElementById('slideRight0');
 const buttonLeft0 = document.getElementById('slideLeft0');

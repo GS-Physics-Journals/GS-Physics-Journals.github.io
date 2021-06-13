@@ -123,6 +123,8 @@ div.navbar-brand h1 {
 /*End of Header*/
 
 /*Home*/
+
+
 .no-padding{
     position: relative;
     padding:0%;
@@ -238,6 +240,51 @@ div.navbar-brand h1 {
     background-color: #e48509;
     margin-right: 1vw;
 }
+
+#pop{
+    width: 25vw;
+    overflow: hidden;
+    background: #292827;
+    box-shadow: 0 0 20px black;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 5%;
+    right: -30%;
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#pop .close{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/close.png") no-repeat;
+    background-size: 20px 20px;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.close:hover{
+    text-decoration: none;
+    opacity: 1;
+}
+
+#pop #pop-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e48509;
+}
+
+#pop #pop-info{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
 /*home*/
 
 /*Article*/
@@ -467,6 +514,32 @@ div.navbar-brand h1 {
     font-weight: 700;
 }
 
+.boardContact{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%,0);
+    display: flex;
+}
+#linked{
+    background: url("../images/boardLinkedin.png") no-repeat;
+    background-size: 30px 30px;
+}
+
+#mail{
+    background: url("../images/boardEmail.png") no-repeat;
+    background-position: bottom;
+    background-size: 30px 25px;
+}
+
+#linked, #mail{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+
 .member:hover{
     border: solid #e48509 10px;
 }
@@ -479,8 +552,39 @@ div.navbar-brand h1 {
     opacity: 1;
 }
 
+#linked:hover{
+    background-image: url("../images/boardLinkedinhover.png");
+}
+
+#mail:hover{
+    background-image: url("../images/boardEmailhover.png");
+}
+
 .board-img{
     width: 22vw;
+}
+
+.boardContact-xs{
+    position: absolute;
+    right: 4%;
+    display: flex;
+}
+.linked-xs{
+    background: url("../images/boardLinkedin.png") no-repeat;
+    background-size: 25px 25px;
+}
+
+.mail-xs{
+    background: url("../images/boardEmail.png") no-repeat;
+    background-position: bottom;
+    background-size: 25px 20px;
+}
+
+.linked-xs, .mail-xs{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    transition: 0.5s;
 }
 
 .name-xs{
@@ -572,24 +676,19 @@ div.navbar-brand h1 {
     margin-bottom: 7px;
 }
 
-.tbox,.btn{
-    border: none;
-    outline: none;
-}
-.tbox{
-    width: 0px;
-    color: #292827;
-    font-weight: 600;
-    transition: 0.6s;
-}
-
 .btn{
+    width: 0px;
     border-radius: 0px;
     background: #e48509;
     color: #292827;
+    font-size: 1.6rem;
+    font-weight: 600;
     padding: 0 10px;
     text-transform: uppercase;
     cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.6s;
 }
 
 /*End of footer*/
@@ -606,8 +705,8 @@ div.navbar-brand h1 {
 
     /*Header End*/
 
-    .email-box:hover > .tbox,.tbox:focus{
-        width: 260px;
+    .email-box:hover > .btn{
+        width: 120px;
         padding: 0 10px;
     }
 
@@ -622,6 +721,20 @@ div.navbar-brand h1 {
     }
 
     /*Header End*/
+
+    #pop{
+        width: 30vw;
+    }
+    
+    #pop #pop-title{
+        font-size: 2.8rem;
+        font-weight: 700;
+    }
+    
+    #pop #pop-info{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
 
     #board span{
         font-size: 4.5rem;
@@ -656,8 +769,8 @@ div.navbar-brand h1 {
         width: 18vw;
     }
 
-    .email-box:hover > .tbox,.tbox:focus{
-        width: 260px;
+    .email-box:hover > .btn{
+        width: 120px;
         padding: 0 10px;
     }
 }
@@ -715,6 +828,20 @@ div.navbar-brand h1 {
     
     .wrapper{
         overflow-x: auto;
+    }
+
+    #pop{
+        width: 40vw;
+    }
+    
+    #pop #pop-title{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    
+    #pop #pop-info{
+        font-size: 1.5rem;
+        font-weight: 500;
     }
     /*End of Home*/
 
@@ -818,20 +945,15 @@ div.navbar-brand h1 {
         color: #fff;
     }
 
-    .tbox{
-        width: 0px;
-        color: #292827;
-        font-size: 1.5rem;
-        font-weight: 400;
-        transition: 0.6s;
+    .email-box {
+        height: 40px;
+        width: 30px;
+        display: flex;
+        margin-left: 10%;
     }
-    .email-box:hover > .tbox,.tbox:focus{
-        width: 140px;
-        padding: 0 10px;
-    }
+
     .btn{
-        padding: 0;;
-        width: 60px;
+        width: 100px;
     }
     /*End of Footer*/
 }
@@ -896,6 +1018,20 @@ div.navbar-brand h1 {
     
     .wrapper{
         overflow-x: auto;
+    }
+
+    #pop{
+        width: 65vw;
+    }
+    
+    #pop #pop-title{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    #pop #pop-info{
+        font-size: 1.5rem;
+        font-weight: 500;
     }
     /*End of Home*/
 
@@ -997,14 +1133,11 @@ div.navbar-brand h1 {
         height: 40px;
         width: 30px;
         display: flex;
-        margin-left: 15vw;
+        margin-left: 40%;
     }
 
-    .tbox{
-        width: 150px;
-        padding: 0 10px;
-        font-size: 2rem;
-        font-weight: 400;
+    .btn{
+        width: 100px;
     }
 
     /*End of Footer*/

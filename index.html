@@ -28,7 +28,7 @@ Animations{
 </head>
 
 
-<body>
+<body onload="popShow()">
 
     <!-- Header-->
     <header>
@@ -38,9 +38,10 @@ Animations{
 
                     <!--Social-->
                     <div>
-                        <a href="#"><img class="sm-nav" src="images/Facebook.png"></a>
-                        <a href="#"><img class="sm-nav" src="images/linkedin.png"></a>
-                        <a href="#"><img class="sm-nav" src="images/Email.png"></a>
+                        <a href="#" target="_blank"><img class="sm-nav" src="images/Facebook.png"></a>
+                        <a href="https://www.linkedin.com/company/gspj" target="_blank"><img class="sm-nav"
+                                src="images/linkedin.png"></a>
+                        <a href="mailto:GSphysicsJ@gmail.com"><img class="sm-nav" src="images/Email.png"></a>
                     </div>
 
                     <!-- Brand name -->
@@ -72,9 +73,12 @@ Animations{
 
                             <li>
                                 <div id="sm-collapse">
-                                    <a href="#"><img class="sm-collapse-ic" src="images/Facebook.png"></a>
-                                    <a href="#"><img class="sm-collapse-ic" src="images/linkedin.png"></a>
-                                    <a href="#"><img class="sm-collapse-ic" src="images/Email.png"></a>
+                                    <a href="#" target="_blank"><img class="sm-collapse-ic"
+                                            src="images/Facebook.png"></a>
+                                    <a href="https://www.linkedin.com/company/gspj" target="_blank"><img
+                                            class="sm-collapse-ic" src="images/linkedin.png"></a>
+                                    <a href="mailto:GSphysicsJ@gmail.com"><img class="sm-collapse-ic"
+                                            src="images/Email.png"></a>
                                 </div>
                             </li>
                         </ul>
@@ -90,6 +94,7 @@ Animations{
 
 
     <!-- Main content -->
+
     <div id="main" class="container-fluid no-padding">
         <img src="images/Home bg.png" alt="jumptroon" class="img-responsive">
 
@@ -118,6 +123,12 @@ Animations{
         <div class="article" style="margin-right: 0;">box3</div>
     </div>
 
+    <div id="pop">
+        <a onclick="popClose()" class="close"></a>
+        <div id="pop-title">Weekly Information</div>
+        <div id="pop-info">Apples are good</div>
+    </div>
+
     <!-- Footer -->
     <footer class="panel-footer">
         <div class="container">
@@ -143,19 +154,19 @@ Animations{
                         STEM Physics
                         Journal</a>
                     <br>
-                    <img src="images/linkedinF.png" style="margin-left: 3px; margin-right: 3px;"><a href="#">Gharbiya
+                    <img src="images/linkedinF.png" style="margin-left: 3px; margin-right: 3px;"><a
+                        href="https://www.linkedin.com/company/gspj">Gharbiya
                         STEM Physics
                         Journal</a>
                     <br>
-                    <img src="images/EmailF.png"><a href="#">GSPJ@gmail.com</a>
+                    <img src="images/EmailF.png"><a href="mailto:GSphysicsJ@gmail.com">GSPhysicsJ@gmail.com</a>
                     <hr class="visible-xs">
 
                     <form action="">
                         <span>Join Our Newsletter</span>
                         <div class="email-box">
                             <i> <img src="images/newsletter.png" alt=""></i>
-                            <input class="tbox" type="email" name="" value="" placeholder="Enter your email">
-                            <button class="btn" type="button" name="button">Subscribe</button>
+                            <button class="btn" type="button" name="button">&gt; Subscribe</button>
                         </div>
                     </form>
                 </section>
