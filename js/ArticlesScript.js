@@ -8,6 +8,7 @@
     buttonLeft1.onclick = function () {
         document.getElementById('subs1').scrollLeft -= 500;
     };
+
     /*
         const buttonRight2 = document.getElementById('slideRight2');
         const buttonLeft2 = document.getElementById('slideLeft2');
