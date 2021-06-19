@@ -979,6 +979,68 @@ div.navbar-brand h1 {
 
     /*End of about*/
 
+        /*RA*/
+        .subs .subs-a{
+            min-width: 35vw;
+            height: 30vw;
+            margin-right: 1vw;
+            text-decoration: none;
+        }
+        
+        .subs-a div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 30vw;
+            color: #fff;
+            background-color: #292827;
+            font-size: 100%;
+            font-weight: 400;
+            opacity: 0;
+            transition: .5s;
+        }
+        
+        .subs-a div:hover{
+            opacity: .8;
+        }
+        
+    
+    #subs1 > :nth-child(1){
+        background-image: url(../Releases/R1/R1A1cover.jpeg);
+        background-size: 35vw 39vw;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #subs1 > :nth-child(2){
+        background-image: url(../Releases/R1/R1A2cover.jpeg);
+        background-size: 35vw 39vw;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #subs1 > :nth-child(3){
+        background-image: url(../Releases/R1/R1A1cover.jpeg);
+        background-size: 35vw 39vw;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #subs1 > :nth-child(4){
+        background-image: url(../Releases/R1/R1A1cover.jpeg);
+        background-size: 35vw 39vw;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #subs1 > :nth-child(5){
+        background-image: url(../Releases/R1/R1A1cover.jpeg);
+        background-size: 35vw 39vw;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
     /* End of Main*/
 
     /*Footer*/
@@ -1120,10 +1182,6 @@ div.navbar-brand h1 {
         overflow-x: auto;
     }
 
-    .subs .subs-a{
-        min-width: 35vw;
-        height: 35vw;
-    }
     /*End of Article*/
 
     /*About*/
