@@ -3,7 +3,7 @@ function popShow() {
 }
 
 function popClose() {
-    document.getElementById("pop").style.right = "-30%";
+    document.getElementById("pop").style.right = "-70vw";
 }
 
 const buttonRight0 = document.getElementById('slideRight0');
