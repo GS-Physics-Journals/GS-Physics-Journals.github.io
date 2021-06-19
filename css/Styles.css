@@ -923,26 +923,6 @@ div.navbar-brand h1 {
         overflow-x: auto;
     }
 
-    .subs .subs-a{
-        min-width: 30vw;
-        height: 30vw;
-        margin-right: 1vw;
-        text-decoration: none;
-    }
-    
-    .subs-a div{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        height: 20vw;
-        color: #fff;
-        background-color: #292827;
-        font-size: 180%;
-        font-weight: 600;
-        opacity: 0;
-        transition: .5s;
-    }
     /*End of Article*/
 
     /*About*/
