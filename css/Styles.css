@@ -235,7 +235,6 @@ div.navbar-brand h1 {
 .wrapper .article{
     min-width: 50vw;
     height: 35vw;
-    line-height: 35vw;
     text-align: center;
     background-color: #e48509;
     margin-right: 1vw;
@@ -927,9 +926,22 @@ div.navbar-brand h1 {
     .subs .subs-a{
         min-width: 30vw;
         height: 30vw;
-        line-height: 30vw;
-        background: no-repeat center;
-        background-size: 20px 20px;
+        margin-right: 1vw;
+        text-decoration: none;
+    }
+    
+    .subs-a div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 20vw;
+        color: #fff;
+        background-color: #292827;
+        font-size: 180%;
+        font-weight: 600;
+        opacity: 0;
+        transition: .5s;
     }
     /*End of Article*/
 
@@ -995,8 +1007,8 @@ div.navbar-brand h1 {
             height: 30vw;
             color: #fff;
             background-color: #292827;
-            font-size: 100%;
-            font-weight: 400;
+            font-size: 170%;
+            font-weight: 500;
             opacity: 0;
             transition: .5s;
         }
