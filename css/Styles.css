@@ -909,6 +909,11 @@ div.navbar-brand h1 {
         width: 120px;
         padding: 0 10px;
     }
+
+    .btn a{
+        color: #292827;
+        text-decoration: none;
+    }
 }
 
 /*SM*/
@@ -1154,6 +1159,11 @@ div.navbar-brand h1 {
 
     .btn{
         width: 100px;
+    }
+
+    .btn a{
+        color: #292827;
+        text-decoration: none;
     }
     /*End of Footer*/
 }
