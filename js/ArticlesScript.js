@@ -3,10 +3,10 @@
     const buttonLeft1 = document.getElementById('slideLeft1');
 
     buttonRight1.onclick = function () {
-        document.getElementById('subs1').scrollLeft += 500;
+        document.getElementById('subs1').scrollLeft += 700;
     };
     buttonLeft1.onclick = function () {
-        document.getElementById('subs1').scrollLeft -= 500;
+        document.getElementById('subs1').scrollLeft -= 700;
     };
 
     /*

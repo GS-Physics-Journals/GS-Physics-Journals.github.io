@@ -230,15 +230,9 @@ div.navbar-brand h1 {
     width: 90vw;
     display: flex;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
-.wrapper .article{
-    min-width: 50vw;
-    height: 35vw;
-    text-align: center;
-    background-color: #e48509;
-    margin-right: 1vw;
-}
 
 #pop{
     width: 25vw;
@@ -371,6 +365,7 @@ div.navbar-brand h1 {
     width: 86vw;
     display: flex;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .slideRight{
@@ -644,38 +639,104 @@ div.navbar-brand h1 {
     border-width: 0px;
 }
 
+/*Recent*/
+.article{
+    min-width: 50vw;
+    height: 35vw;
+    text-align: center;
+    margin-right: 1vw;
+}
 
+.article div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 35vw;
+    color: #fff;
+    background-color: #292827;
+    font-size: 300%;
+    font-weight: 600;
+    opacity: 0;
+    transition: .5s;
+}
+
+.article div:hover{
+    opacity: .8;
+}
+
+.wrapper > :nth-child(1){
+    background-image: url(../Releases/R1/R1A1cover.png);
+    background-size: 50vw 60vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.wrapper > :nth-child(2){
+    background-image: url(../Releases/R1/R1A2cover.png);
+    background-size: 50vw 60vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.wrapper > :nth-child(3){
+    background-image: url(../Releases/R1/R1A3cover.png);
+    background-size: 50vw 60vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.wrapper > :nth-child(4){
+    background-image: url(../Releases/R1/R1A4cover.png);
+    background-size: 50vw 60vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.wrapper > :nth-child(5){
+    background-image: url(../Releases/R1/R1A5cover.png);
+    background-size: 50vw 60vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+/*Articles*/
 
 #subs1 > :nth-child(1){
-    background-image: url(../Releases/R1/R1A1cover.jpeg);
+    background-image: url(../Releases/R1/R1A1cover.png);
     background-size: 25vw 29vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #subs1 > :nth-child(2){
-    background-image: url(../Releases/R1/R1A2cover.jpeg);
+    background-image: url(../Releases/R1/R1A2cover.png);
     background-size: 25vw 29vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #subs1 > :nth-child(3){
-    background-image: url(../Releases/R1/R1A1cover.jpeg);
+    background-image: url(../Releases/R1/R1A3cover.png);
     background-size: 25vw 29vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #subs1 > :nth-child(4){
-    background-image: url(../Releases/R1/R1A1cover.jpeg);
+    background-image: url(../Releases/R1/R1A4cover.png);
     background-size: 25vw 29vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #subs1 > :nth-child(5){
-    background-image: url(../Releases/R1/R1A1cover.jpeg);
+    background-image: url(../Releases/R1/R1A5cover.png);
     background-size: 25vw 29vw;
     background-position: center;
     background-repeat: no-repeat;
@@ -764,10 +825,22 @@ div.navbar-brand h1 {
     }
 
     /*Header End*/
+    .email-box .btn a {
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        color: #292827;
+        opacity: 0;
+    }
 
     .email-box:hover > .btn{
         width: 120px;
         padding: 0 10px;
+    }
+
+    .email-box:hover .btn a{
+        color: #292827;
+        opacity: 1;
     }
 
 }
@@ -781,6 +854,13 @@ div.navbar-brand h1 {
     }
 
     /*Header End*/
+
+    .article div{
+        font-size: 270%;
+        font-weight: 600;
+    }
+
+
 
     #pop{
         width: 30vw;
@@ -974,6 +1054,13 @@ div.navbar-brand h1 {
     /*End of about*/
 
         /*RA*/
+
+        .article div{
+            font-size: 150%;
+            font-weight: 500;
+        }
+
+
         .subs .subs-a{
             min-width: 35vw;
             height: 30vw;
@@ -1225,6 +1312,13 @@ div.navbar-brand h1 {
     /*End of about*/
 
     /*RA*/
+
+    .article div{
+        font-size: 150%;
+        font-weight: 500;
+    }
+
+
     .subs .subs-a{
         min-width: 35vw;
         height: 30vw;
