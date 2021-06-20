@@ -1360,21 +1360,21 @@ div.navbar-brand h1 {
 }
 
 #subs1 > :nth-child(3){
-    background-image: url(../Releases/R1/R1A1cover.png);
+    background-image: url(../Releases/R1/R1A3cover.png);
     background-size: 35vw 39vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #subs1 > :nth-child(4){
-    background-image: url(../Releases/R1/R1A1cover.png);
+    background-image: url(../Releases/R1/R1A4cover.png);
     background-size: 35vw 39vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #subs1 > :nth-child(5){
-    background-image: url(../Releases/R1/R1A1cover.png);
+    background-image: url(../Releases/R1/R1A5cover.png);
     background-size: 35vw 39vw;
     background-position: center;
     background-repeat: no-repeat;
