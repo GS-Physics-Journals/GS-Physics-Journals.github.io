@@ -504,7 +504,7 @@ div.navbar-brand h1 {
 }
 
 .name{
-    font-size: 2rem;
+    font-size: 23px;
     font-weight: 700;
 }
 
@@ -583,7 +583,7 @@ div.navbar-brand h1 {
 
 .name-xs{
     text-align: center;
-    font-size: 4vw;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -601,7 +601,7 @@ div.navbar-brand h1 {
 .about-board-xs{
     text-align: center;
     transition: ease 0.5s;
-    font-size: 3vw;
+    font-size: 30px;
 }
 
 .board-img-xs{
@@ -886,16 +886,28 @@ div.navbar-brand h1 {
         font-weight: 500;
     }
 
+    #vision span{
+        font-size: 50px;
+    }
+
+    #vision div{
+        font-size: 30px;
+    }
+
     #board span{
-        font-size: 4.5rem;
+        font-size: 50px;
     }
     
     #ABhr3{
-        width: 32vw;
+        width: 30vw;
     }
     
     #ABhr4{
-        width: 32vw;
+        width: 30vw;
+    }
+
+    .board-members{
+        display: none;
     }
 
     .member{
@@ -914,9 +926,23 @@ div.navbar-brand h1 {
         font-size: 2rem;
         font-weight: 700;
     }
+
+    .name-xs{
+        font-size: 40px;
+    }
+
+    .about-board-xs{
+        font-size: 30px;
+    }
     
     .board-img{
         width: 18vw;
+    }
+
+    .linked-xs, .mail-xs{
+        width: 50px;
+        height: 50px;
+        background-size: 100%;
     }
 
     .email-box:hover > .btn{
