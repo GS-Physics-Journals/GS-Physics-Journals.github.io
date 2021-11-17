@@ -456,6 +456,7 @@ div.navbar-brand h1 {
 }
 
 #board{
+    width: 100%;
     padding: 30px;
     padding-top: 0%;
     text-align: center;
@@ -484,7 +485,8 @@ div.navbar-brand h1 {
 .member{
     position: relative;
     width: 26vw;
-    margin: 30px;
+    margin: 20px;
+    margin-bottom: 0;
     padding: 10px;
     border: solid;
     border-width: 10px;
