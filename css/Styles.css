@@ -1,4 +1,3 @@
-
 body {
     font-size: 16px;
     color: #292827;
@@ -6,18 +5,19 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: .5rem;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
     background: #292827;
 }
 
-body::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track {
     background: transparent;
 }
-.container{
+
+.container {
     position: relative;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ body::-webkit-scrollbar-track{
     justify-content: center;
 }
 
-.sm-nav{
+.sm-nav {
     float: left;
     width: 50px;
     margin-top: 7.8px;
@@ -47,17 +47,17 @@ body::-webkit-scrollbar-track{
     transition: 0.3s;
 }
 
-.sm-nav:hover{
+.sm-nav:hover {
     width: 55px;
     margin-top: 5.3px;
 }
 
-div.navbar-brand{
+div.navbar-brand {
     position: absolute;
     left: 50vw;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     margin: auto;
-    
+
 }
 
 div.navbar-brand h1 {
@@ -77,15 +77,15 @@ div.navbar-brand h1 {
     text-align: center;
     color: #e48509;
     font-size: 1.4em;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
-#nav-list li a{
+#nav-list li a {
     color: #e48509;
     transition: ease-out 0.5s;
 }
 
-#nav-list li .is-active{
+#nav-list li .is-active {
     color: #292827;
 }
 
@@ -93,22 +93,23 @@ div.navbar-brand h1 {
     color: #292827;
 }
 
-#sm-collapse{
+#sm-collapse {
     display: none;
 }
 
-.sm-collapse-ic{
+.sm-collapse-ic {
     width: 40px;
     margin: 10px;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
     border: none;
 }
 
 .navbar-header button.navbar-toggle {
     clear: both;
-    
+
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -121,22 +122,22 @@ div.navbar-brand h1 {
 /*Home*/
 
 
-.no-padding{
+.no-padding {
     position: relative;
-    padding:0%;
+    padding: 0%;
 }
 
-#main{
+#main {
     background-color: #e48509;
 }
 
-#recent{
+#recent {
     margin: 10px;
     font-size: 50px;
     color: var(--bg-secondary);
 }
 
-.btn1{
+.btn1 {
     position: relative;
     float: right;
     width: 120px;
@@ -156,13 +157,13 @@ div.navbar-brand h1 {
     font-weight: 600;
 }
 
-.btn1:hover{
+.btn1:hover {
     border-color: #e48509;
     box-shadow: inset 140px 0 0 0 #292827;
     color: #e48509;
 }
 
-#re{
+#re {
     border-color: #292827;
     width: 65%;
     border-width: 2px;
@@ -171,7 +172,7 @@ div.navbar-brand h1 {
     margin-left: 0;
 }
 
-#slideLeft0{
+#slideLeft0 {
     position: absolute;
     float: left;
     left: 1.9vw;
@@ -189,7 +190,7 @@ div.navbar-brand h1 {
     font-weight: 600;
 }
 
-#slideRight0{
+#slideRight0 {
     position: absolute;
     float: right;
     right: 1.6vw;
@@ -207,7 +208,7 @@ div.navbar-brand h1 {
     font-weight: 600;
 }
 
-.wrapper{
+.wrapper {
     position: relative;
     left: 5vw;
     max-height: 40vw;
@@ -218,7 +219,7 @@ div.navbar-brand h1 {
 }
 
 
-#pop{
+#pop {
     width: 25vw;
     overflow: hidden;
     background: #292827;
@@ -233,7 +234,7 @@ div.navbar-brand h1 {
     transition: 0.5s;
 }
 
-#pop .close{
+#pop .close {
     float: left;
     margin-top: 5px;
     margin-left: 5px;
@@ -245,18 +246,18 @@ div.navbar-brand h1 {
     opacity: 1;
 }
 
-.close:hover{
+.close:hover {
     text-decoration: none;
     opacity: 1;
 }
 
-#pop #pop-title{
+#pop #pop-title {
     font-size: 3rem;
     font-weight: 700;
     color: #e48509;
 }
 
-#pop #pop-info{
+#pop #pop-info {
     font-size: 2rem;
     font-weight: 500;
     color: #fff;
@@ -266,7 +267,7 @@ div.navbar-brand h1 {
 
 /*Article*/
 
-#AM{
+#AM {
     background: url(../images/ArBg.png) fixed center center;
     background-size: cover;
     display: flexbox;
@@ -274,7 +275,7 @@ div.navbar-brand h1 {
     align-items: center;
 }
 
-#AT{
+#AT {
     flex-basis: 100%;
     color: #292827;
     font-size: 6rem;
@@ -282,7 +283,7 @@ div.navbar-brand h1 {
     text-align: center;
 }
 
-#AS{
+#AS {
     display: flexbox;
     justify-content: center;
     align-items: center;
@@ -292,26 +293,26 @@ div.navbar-brand h1 {
     border-radius: 15px;
 }
 
-#AS .container{
+#AS .container {
     margin-bottom: 10px;
 }
 
-.subs-t{
+.subs-t {
     margin: 5px;
     margin-left: 35px;
     font-size: 40px;
     color: var(--bg-secondary);
 }
 
-.soon{
+.soon {
     text-align: center;
     font-size: 8rem;
 }
 
-.subs-b{
+.subs-b {
     float: right;
     width: 90px;
-    height: 37  px;
+    height: 37 px;
     margin: 15px;
     margin-right: 35px;
     border: 0px solid;
@@ -326,13 +327,13 @@ div.navbar-brand h1 {
     font-weight: 600;
 }
 
-.subs-b:hover{
+.subs-b:hover {
     border-color: #e48509;
     box-shadow: inset 140px 0 0 0 #292827;
     color: #e48509;
 }
 
-.subs-h{
+.subs-h {
     border-color: #292827;
     width: 65%;
     border-width: 2px;
@@ -342,7 +343,7 @@ div.navbar-brand h1 {
     margin-right: 17.5%;
 }
 
-.subs{
+.subs {
     position: relative;
     left: 4.2vw;
     max-height: 25vw;
@@ -352,7 +353,7 @@ div.navbar-brand h1 {
     scroll-behavior: smooth;
 }
 
-.slideRight{
+.slideRight {
     position: absolute;
     float: right;
     right: 1.6vw;
@@ -370,7 +371,7 @@ div.navbar-brand h1 {
     font-weight: 600;
 }
 
-.slideLeft{
+.slideLeft {
     position: absolute;
     float: left;
     left: 1.2vw;
@@ -388,14 +389,14 @@ div.navbar-brand h1 {
     font-weight: 600;
 }
 
-.subs .subs-a{
+.subs .subs-a {
     min-width: 25vw;
     height: 20vw;
     margin-right: 1vw;
     text-decoration: none;
 }
 
-.subs-a div{
+.subs-a div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -409,7 +410,7 @@ div.navbar-brand h1 {
     transition: .5s;
 }
 
-.subs-a div:hover{
+.subs-a div:hover {
     opacity: .8;
 }
 
@@ -417,25 +418,25 @@ div.navbar-brand h1 {
 
 /*About*/
 
-#AbLogo{
+#AbLogo {
     position: relative;
     width: 450px;
     left: 50%;
     margin-top: 40px;
     margin-bottom: 40px;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
 }
 
-#vision{
+#vision {
     padding: 30px;
     text-align: center;
 }
 
-#vision span{
+#vision span {
     font-size: 5rem;
 }
 
-#ABhr1{
+#ABhr1 {
     float: left;
     width: 35vw;
     margin-top: 40px;
@@ -443,7 +444,7 @@ div.navbar-brand h1 {
     border-color: #292827;
 }
 
-#ABhr2{
+#ABhr2 {
     float: right;
     width: 35vw;
     margin-top: 40px;
@@ -451,22 +452,22 @@ div.navbar-brand h1 {
     border-color: #292827;
 }
 
-#vision div{
+#vision div {
     font-size: 2rem;
 }
 
-#board{
+#board {
     width: 100%;
     padding: 30px;
     padding-top: 0%;
     text-align: center;
 }
 
-#board span{
+#board span {
     font-size: 5rem;
 }
 
-#ABhr3{
+#ABhr3 {
     float: left;
     width: 33vw;
     margin-top: 40px;
@@ -474,7 +475,7 @@ div.navbar-brand h1 {
     border-color: #292827;
 }
 
-#ABhr4{
+#ABhr4 {
     float: right;
     width: 33vw;
     margin-top: 40px;
@@ -482,7 +483,7 @@ div.navbar-brand h1 {
     border-color: #292827;
 }
 
-.member{
+.member {
     position: relative;
     width: 26vw;
     margin: 20px;
@@ -494,7 +495,7 @@ div.navbar-brand h1 {
     transition: ease 0.5s;
 }
 
-.about-board{
+.about-board {
     position: absolute;
     top: 0px;
     width: 95%;
@@ -505,30 +506,32 @@ div.navbar-brand h1 {
     transition: ease 0.5s;
 }
 
-.name{
+.name {
     font-size: 23px;
     font-weight: 700;
 }
 
-.boardContact{
+.boardContact {
     position: absolute;
     bottom: 15px;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     display: flex;
 }
-#linked{
+
+#linked {
     background: url("../images/boardLinkedin.png") no-repeat;
     background-size: 30px 30px;
 }
 
-#mail{
+#mail {
     background: url("../images/boardEmail.png") no-repeat;
     background-position: bottom;
     background-size: 30px 25px;
 }
 
-#linked, #mail{
+#linked,
+#mail {
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -536,60 +539,62 @@ div.navbar-brand h1 {
 }
 
 
-.member:hover{
+.member:hover {
     border: solid #e48509 10px;
 }
 
-.about-board:hover{
+.about-board:hover {
     opacity: .8;
 }
 
-.about-board div:hover{
+.about-board div:hover {
     opacity: 1;
 }
 
-#linked:hover{
+#linked:hover {
     background-image: url("../images/boardLinkedinhover.png");
 }
 
-#mail:hover{
+#mail:hover {
     background-image: url("../images/boardEmailhover.png");
 }
 
-.board-img{
+.board-img {
     width: 99%;
 }
 
-.boardContact-xs{
+.boardContact-xs {
     position: absolute;
     right: 4%;
     display: flex;
 }
-.linked-xs{
+
+.linked-xs {
     background: url("../images/boardLinkedin.png") no-repeat;
     background-size: 25px 25px;
 }
 
-.mail-xs{
+.mail-xs {
     background: url("../images/boardEmail.png") no-repeat;
     background-position: bottom;
     background-size: 25px 20px;
 }
 
-.linked-xs, .mail-xs{
+.linked-xs,
+.mail-xs {
     width: 25px;
     height: 25px;
     margin-right: 10px;
     transition: 0.5s;
 }
 
-.name-xs{
+.name-xs {
     text-align: center;
     font-size: 40px;
     font-weight: 600;
 }
 
-.member-xs{
+.member-xs {
     width: 26vw;
     margin: 10px;
     margin-left: 28vw;
@@ -600,40 +605,41 @@ div.navbar-brand h1 {
     transition: ease 0.5s;
 }
 
-.about-board-xs{
+.about-board-xs {
     text-align: center;
     transition: ease 0.5s;
     font-size: 30px;
 }
 
-.board-img-xs{
+.board-img-xs {
     width: 99%;
 }
 
-.ABhr-xs{
+.ABhr-xs {
     width: 80vw;
     border-color: #292827;
     border-width: 2px;
 }
+
 /*About*/
 
 /*RA*/
 
-.pdf{
+.pdf {
     width: 100%;
     height: 89vh;
     border-width: 0px;
 }
 
 /*Recent*/
-.article{
+.article {
     min-width: 50vw;
     height: 35vw;
     text-align: center;
     margin-right: 1vw;
 }
 
-.article div{
+.article div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -647,19 +653,19 @@ div.navbar-brand h1 {
     transition: .5s;
 }
 
-.article div:hover{
+.article div:hover {
     opacity: .8;
 }
 
-.wrapper > :nth-child(1){
-    background-image: url(../Releases/R2/R2A1cover.png);
+.wrapper> :nth-child(1) {
+    background-image: url(../Releases/R3/R3A1cover.png);
     background-size: 50vw 60vw;
     background-position: center;
     background-repeat: no-repeat;
     text-decoration: none;
 }
 
-.wrapper > :nth-child(2){
+.wrapper> :nth-child(2) {
     background-image: url(../Releases/R2/R2A2cover.png);
     background-size: 50vw 60vw;
     background-position: center;
@@ -667,13 +673,14 @@ div.navbar-brand h1 {
     text-decoration: none;
 }
 
-.wrapper > :nth-child(3){
+.wrapper> :nth-child(3) {
     background-image: url(../Releases/R2/R2A3cover.png);
     background-size: 50vw 60vw;
     background-position: center;
     background-repeat: no-repeat;
     text-decoration: none;
 }
+
 /*
 .wrapper > :nth-child(4){
     background-image: url(../Releases/R1/R1A4cover.png);
@@ -695,42 +702,50 @@ div.navbar-brand h1 {
 
 /*Articles*/
 
-#subs1 > :nth-child(1){
+#subs1> :nth-child(1) {
     background-image: url(../Releases/R1/R1A1cover.png);
     background-size: 25vw 29vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#subs1 > :nth-child(2){
+#subs1> :nth-child(2) {
     background-image: url(../Releases/R1/R1A2cover.png);
     background-size: 25vw 29vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#subs1 > :nth-child(3){
+#subs1> :nth-child(3) {
     background-image: url(../Releases/R1/R1A3cover.png);
     background-size: 25vw 29vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#subs1 > :nth-child(4){
+#subs1> :nth-child(4) {
     background-image: url(../Releases/R1/R1A4cover.png);
     background-size: 25vw 29vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#subs1 > :nth-child(5){
+#subs1> :nth-child(5) {
     background-image: url(../Releases/R1/R1A5cover.png);
     background-size: 25vw 29vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#subs2 > :nth-child(1){
+#subs2> :nth-child(1) {
+    background-image: url(../Releases/R3/R3A1cover.png);
+    background-size: 25vw 29vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+
+#subs2> :nth-child(2) {
     background-image: url(../Releases/R2/R2A1cover.png);
     background-size: 25vw 29vw;
     background-position: center;
@@ -738,7 +753,7 @@ div.navbar-brand h1 {
     margin-left: 40px;
 }
 
-#subs2 > :nth-child(2){
+#subs2> :nth-child(3) {
     background-image: url(../Releases/R2/R2A2cover.png);
     background-size: 25vw 29vw;
     background-position: center;
@@ -746,7 +761,7 @@ div.navbar-brand h1 {
     margin-left: 40px;
 }
 
-#subs2 > :nth-child(3){
+#subs2> :nth-child(4) {
     background-image: url(../Releases/R2/R2A3cover.png);
     background-size: 25vw 29vw;
     background-position: center;
@@ -756,7 +771,7 @@ div.navbar-brand h1 {
 
 /*Footer*/
 
-.panel-footer{
+.panel-footer {
     margin-top: 30px;
     padding-top: 35px;
     padding-bottom: 30px;
@@ -765,51 +780,52 @@ div.navbar-brand h1 {
     border-top: 0ch;
 }
 
-.panel-footer span{
+.panel-footer span {
     font-size: 40px;
     font-weight: bold;
 }
 
-.panel-footer section{
+.panel-footer section {
     font-size: 20px;
 }
 
-.panel-footer .brandF{
+.panel-footer .brandF {
     font-size: 25px;
     font-weight: 400;
     color: #e48509;
 }
 
-.panel-footer a{
+.panel-footer a {
     text-decoration: none;
     color: #fff;
 }
 
-.panel-footer img{
+.panel-footer img {
     height: 20px;
     padding-right: 10px;
 }
 
-.panel-footer a:hover{
+.panel-footer a:hover {
     color: #e48509;
 }
 
-.email-box{
+.email-box {
     height: 40px;
     display: flex;
 }
-.email-box i{
+
+.email-box i {
     padding-left: 7px;
     background: #e48509;
     width: 40px;
     line-height: 40px;
 }
 
-.email-box i img{
+.email-box i img {
     margin-bottom: 7px;
 }
 
-.btn{
+.btn {
     width: 0px;
     border-radius: 0px;
     background: #e48509;
@@ -832,7 +848,7 @@ div.navbar-brand h1 {
 @media (min-width: 1200px) {
     /*Header*/
 
-    #nav-list{
+    #nav-list {
         margin-right: 20px;
     }
 
@@ -845,12 +861,12 @@ div.navbar-brand h1 {
         opacity: 0;
     }
 
-    .email-box:hover > .btn{
+    .email-box:hover>.btn {
         width: 120px;
         padding: 0 10px;
     }
 
-    .email-box:hover .btn a{
+    .email-box:hover .btn a {
         color: #292827;
         opacity: 1;
     }
@@ -861,117 +877,118 @@ div.navbar-brand h1 {
 @media (min-width: 992px) and (max-width:1199px) {
     /*Header*/
 
-    #nav-list{
+    #nav-list {
         margin-right: 20px;
     }
 
     /*Header End*/
 
-    .article div{
+    .article div {
         font-size: 270%;
         font-weight: 600;
     }
 
 
 
-    #pop{
+    #pop {
         width: 30vw;
     }
-    
-    #pop #pop-title{
+
+    #pop #pop-title {
         font-size: 2.8rem;
         font-weight: 700;
     }
-    
-    #pop #pop-info{
+
+    #pop #pop-info {
         font-size: 1.8rem;
         font-weight: 500;
     }
 
-    #vision span{
+    #vision span {
         font-size: 50px;
     }
 
-    #vision div{
+    #vision div {
         font-size: 30px;
     }
 
-    #board span{
+    #board span {
         font-size: 50px;
     }
-    
-    #ABhr3{
-        width: 30vw;
-    }
-    
-    #ABhr4{
+
+    #ABhr3 {
         width: 30vw;
     }
 
-    .board-members{
+    #ABhr4 {
+        width: 30vw;
+    }
+
+    .board-members {
         display: none;
     }
 
-    .member{
+    .member {
         width: 22vw;
         margin: 30px;
         padding: 10px;
         border-width: 10px;
     }
-    
-    .about-board{
+
+    .about-board {
         width: 95%;
         height: 100%;
     }
-    
-    .name{
+
+    .name {
         font-size: 2rem;
         font-weight: 700;
     }
 
-    .name-xs{
+    .name-xs {
         font-size: 40px;
     }
 
-    .about-board-xs{
+    .about-board-xs {
         font-size: 30px;
     }
-    
-    .board-img{
+
+    .board-img {
         width: 18vw;
     }
 
-    .linked-xs, .mail-xs{
+    .linked-xs,
+    .mail-xs {
         width: 50px;
         height: 50px;
         background-size: 100%;
     }
 
-    .email-box:hover > .btn{
+    .email-box:hover>.btn {
         width: 120px;
         padding: 0 10px;
     }
 
-    .btn a{
+    .btn a {
         color: #292827;
         text-decoration: none;
     }
 }
 
 /*SM*/
-@media (min-width: 768px) and (max-width:991px){
+@media (min-width: 768px) and (max-width:991px) {
     /*Header*/
 
     div.navbar-brand h1 {
         font-size: 1.2em;
     }
 
-    .sm-nav{
+    .sm-nav {
         width: 40px;
         margin-left: 15px;
     }
 
-    #nav-list li a{
+    #nav-list li a {
         padding: 10px;
     }
 
@@ -979,20 +996,20 @@ div.navbar-brand h1 {
 
     /*Main*/
     /*Home*/
-    #recent{
+    #recent {
         margin: 20px;
         font-size: 35px;
         color: var(--bg-secondary);
     }
-    
-    .btn1{
+
+    .btn1 {
         width: 80px;
         height: 30px;
         font-size: 2rem;
         font-weight: 600;
     }
-    
-    #re{
+
+    #re {
         border-color: #292827;
         width: 55%;
         border-width: 2px;
@@ -1000,49 +1017,50 @@ div.navbar-brand h1 {
         margin: 30px;
         margin-left: 0;
     }
-    
-    #slideLeft0{
+
+    #slideLeft0 {
         display: none;
     }
-    
-    #slideRight0{
+
+    #slideRight0 {
         display: none;
     }
-    
-    .wrapper{
+
+    .wrapper {
         overflow-x: auto;
     }
 
-    #pop{
+    #pop {
         width: 40vw;
     }
-    
-    #pop #pop-title{
+
+    #pop #pop-title {
         font-size: 2.5rem;
         font-weight: 700;
     }
-    
-    #pop #pop-info{
+
+    #pop #pop-info {
         font-size: 1.5rem;
         font-weight: 500;
     }
+
     /*End of Home*/
 
     /*Article*/
-    .subs-t{
+    .subs-t {
         margin-left: 12px;
         font-size: 5vw;
     }
 
-    .slideRight{
+    .slideRight {
         display: none;
     }
 
-    .slideLeft{
+    .slideLeft {
         display: none;
     }
 
-    .subs{
+    .subs {
         max-height: 34vw;
         width: 86vw;
         overflow-x: auto;
@@ -1052,113 +1070,114 @@ div.navbar-brand h1 {
 
     /*About*/
 
-    #vision span{
+    #vision span {
         font-size: 3.5rem;
         font-weight: 600;
     }
-    #ABhr1{
+
+    #ABhr1 {
         margin-top: 30px;
         width: 30vw;
         border-width: 2px;
     }
-    
-    #ABhr2{
+
+    #ABhr2 {
         margin-top: 30px;
         width: 30vw;
         border-width: 2px;
     }
-    
-    #vision div{
+
+    #vision div {
         font-size: 2rem;
-    }   
-    
-    
-    #board > span{
+    }
+
+
+    #board>span {
         font-size: 3.5rem;
         font-weight: 600;
     }
-    
-    #ABhr3{
+
+    #ABhr3 {
         margin-top: 30px;
         width: 28vw;
         border-width: 2px;
     }
-    
-    #ABhr4{
+
+    #ABhr4 {
         margin-top: 30px;
         width: 28vw;
         border-width: 2px;
     }
-    
-    #board .hide-xs{
+
+    #board .hide-xs {
         display: none;
     }
 
     /*End of about*/
 
-        /*RA*/
+    /*RA*/
 
-        .article div{
-            font-size: 150%;
-            font-weight: 500;
-        }
+    .article div {
+        font-size: 150%;
+        font-weight: 500;
+    }
 
 
-        .subs .subs-a{
-            min-width: 35vw;
-            height: 30vw;
-            margin-right: 1vw;
-            text-decoration: none;
-        }
-        
-        .subs-a div{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            height: 30vw;
-            color: #fff;
-            background-color: #292827;
-            font-size: 170%;
-            font-weight: 500;
-            opacity: 0;
-            transition: .5s;
-        }
-        
-        .subs-a div:hover{
-            opacity: .8;
-        }
-        
-    
-    #subs1 > :nth-child(1){
+    .subs .subs-a {
+        min-width: 35vw;
+        height: 30vw;
+        margin-right: 1vw;
+        text-decoration: none;
+    }
+
+    .subs-a div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 30vw;
+        color: #fff;
+        background-color: #292827;
+        font-size: 170%;
+        font-weight: 500;
+        opacity: 0;
+        transition: .5s;
+    }
+
+    .subs-a div:hover {
+        opacity: .8;
+    }
+
+
+    #subs1> :nth-child(1) {
         background-image: url(../Releases/R1/R1A1cover.png);
         background-size: 35vw 39vw;
         background-position: center;
         background-repeat: no-repeat;
     }
-    
-    #subs1 > :nth-child(2){
+
+    #subs1> :nth-child(2) {
         background-image: url(../Releases/R1/R1A2cover.png);
         background-size: 35vw 39vw;
         background-position: center;
         background-repeat: no-repeat;
     }
-    
-    #subs1 > :nth-child(3){
+
+    #subs1> :nth-child(3) {
         background-image: url(../Releases/R1/R1A3cover.png);
         background-size: 35vw 39vw;
         background-position: center;
         background-repeat: no-repeat;
     }
-    
-    #subs1 > :nth-child(4){
+
+    #subs1> :nth-child(4) {
         background-image: url(../Releases/R1/R1A4cover.png);
         background-size: 35vw 39vw;
         background-position: center;
         background-repeat: no-repeat;
     }
-    
-    #subs1 > :nth-child(5){
+
+    #subs1> :nth-child(5) {
         background-image: url(../Releases/R1/R1A5cover.png);
         background-size: 35vw 39vw;
         background-position: center;
@@ -1168,26 +1187,26 @@ div.navbar-brand h1 {
     /* End of Main*/
 
     /*Footer*/
-    .panel-footer span{
+    .panel-footer span {
         font-size: 25px;
         font-weight: bold;
     }
-    
-    .panel-footer section{
+
+    .panel-footer section {
         font-size: 15px;
     }
 
-    .panel-footer img{
+    .panel-footer img {
         height: 15px;
     }
-    
-    .panel-footer .brandF{
+
+    .panel-footer .brandF {
         font-size: 20px;
         font-weight: 400;
         color: #e48509;
     }
-    
-    .panel-footer a{
+
+    .panel-footer a {
         text-decoration: none;
         color: #fff;
     }
@@ -1199,39 +1218,41 @@ div.navbar-brand h1 {
         margin-left: 10%;
     }
 
-    .btn{
+    .btn {
         width: 100px;
     }
 
-    .btn a{
+    .btn a {
         color: #292827;
         text-decoration: none;
     }
+
     /*End of Footer*/
 }
 
 /*XS*/
 @media (max-width:767px) {
     /*Header*/
-    
-    .sm-nav{
+
+    .sm-nav {
         display: none;
     }
 
-    #sm-collapse{
+    #sm-collapse {
         display: flex;
     }
 
-    div.navbar-brand{
+    div.navbar-brand {
         margin-top: -6px;
         width: 100%;
     }
 
-    div.navbar-brand h1{
+    div.navbar-brand h1 {
         font-size: 1.5rem;
     }
 
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
         margin-top: 50px;
         margin-right: 30%;
     }
@@ -1240,72 +1261,74 @@ div.navbar-brand h1 {
 
     /*Main*/
     /*Home*/
-    #AbLogo{
+    #AbLogo {
         width: 90%;
     }
-    #recent{
+
+    #recent {
         margin: 20px;
         font-size: 30px;
         color: var(--bg-secondary);
     }
-    
-    .btn1{
+
+    .btn1 {
         width: 80px;
         height: 30px;
         font-size: 2rem;
         font-weight: 600;
     }
-    
-    #re{
+
+    #re {
         display: none;
     }
-    
-    #slideLeft0{
+
+    #slideLeft0 {
         display: none;
     }
-    
-    #slideRight0{
+
+    #slideRight0 {
         display: none;
     }
-    
-    .wrapper{
+
+    .wrapper {
         overflow-x: auto;
     }
 
-    #pop{
+    #pop {
         width: 65vw;
     }
-    
-    #pop #pop-title{
+
+    #pop #pop-title {
         font-size: 2rem;
         font-weight: 700;
     }
-    
-    #pop #pop-info{
+
+    #pop #pop-info {
         font-size: 1.5rem;
         font-weight: 500;
     }
+
     /*End of Home*/
 
     /*Article*/
-    .subs-t{
+    .subs-t {
         margin-left: 12px;
         font-size: 6vw;
     }
 
-    .soon{
+    .soon {
         font-size: 5rem;
     }
 
-    .slideRight{
+    .slideRight {
         display: none;
     }
 
-    .slideLeft{
+    .slideLeft {
         display: none;
     }
 
-    .subs{
+    .subs {
         max-height: 39vw;
         width: 86vw;
         overflow-x: auto;
@@ -1315,67 +1338,68 @@ div.navbar-brand h1 {
 
     /*About*/
 
-    #vision span{
-        font-size: 3rem;
-        font-weight: 600;
-    }
-    #ABhr1{
-        margin-top: 20px;
-        width: 20vw;
-        border-width: 2px;
-    }
-    
-    #ABhr2{
-        margin-top: 20px;
-        width: 20vw;
-        border-width: 2px;
-    }
-    
-    #vision div{
-        font-size: 2rem;
-    }   
-    
-    
-    #board > span{
+    #vision span {
         font-size: 3rem;
         font-weight: 600;
     }
 
-    .about-board{
+    #ABhr1 {
+        margin-top: 20px;
+        width: 20vw;
+        border-width: 2px;
+    }
+
+    #ABhr2 {
+        margin-top: 20px;
+        width: 20vw;
+        border-width: 2px;
+    }
+
+    #vision div {
+        font-size: 2rem;
+    }
+
+
+    #board>span {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .about-board {
         width: 95%;
         height: 100%;
     }
-    
-    .name{
+
+    .name {
         font-size: 2rem;
         font-weight: 700;
     }
 
-    .name-xs{
+    .name-xs {
         font-size: 30px;
     }
 
-    .about-board-xs{
+    .about-board-xs {
         font-size: 20px;
     }
-    
-    .board-img{
+
+    .board-img {
         width: 18vw;
     }
-    
-    #ABhr3{
+
+    #ABhr3 {
         margin-top: 25px;
         width: 15vw;
         border-width: 2px;
     }
-    
-    #ABhr4{
+
+    #ABhr4 {
         margin-top: 25px;
         width: 15vw;
         border-width: 2px;
     }
-    
-    #board .hide-xs{
+
+    #board .hide-xs {
         display: none;
     }
 
@@ -1383,20 +1407,20 @@ div.navbar-brand h1 {
 
     /*RA*/
 
-    .article div{
+    .article div {
         font-size: 150%;
         font-weight: 500;
     }
 
 
-    .subs .subs-a{
+    .subs .subs-a {
         min-width: 35vw;
         height: 30vw;
         margin-right: 1vw;
         text-decoration: none;
     }
-    
-    .subs-a div{
+
+    .subs-a div {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1409,61 +1433,61 @@ div.navbar-brand h1 {
         opacity: 0;
         transition: .5s;
     }
-    
-    .subs-a div:hover{
+
+    .subs-a div:hover {
         opacity: .8;
     }
-    
 
-#subs1 > :nth-child(1){
-    background-image: url(../Releases/R1/R1A1cover.png);
-    background-size: 35vw 39vw;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
-#subs1 > :nth-child(2){
-    background-image: url(../Releases/R1/R1A2cover.png);
-    background-size: 35vw 39vw;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+    #subs1> :nth-child(1) {
+        background-image: url(../Releases/R1/R1A1cover.png);
+        background-size: 35vw 39vw;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
-#subs1 > :nth-child(3){
-    background-image: url(../Releases/R1/R1A3cover.png);
-    background-size: 35vw 39vw;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+    #subs1> :nth-child(2) {
+        background-image: url(../Releases/R1/R1A2cover.png);
+        background-size: 35vw 39vw;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
-#subs1 > :nth-child(4){
-    background-image: url(../Releases/R1/R1A4cover.png);
-    background-size: 35vw 39vw;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+    #subs1> :nth-child(3) {
+        background-image: url(../Releases/R1/R1A3cover.png);
+        background-size: 35vw 39vw;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
-#subs1 > :nth-child(5){
-    background-image: url(../Releases/R1/R1A5cover.png);
-    background-size: 35vw 39vw;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+    #subs1> :nth-child(4) {
+        background-image: url(../Releases/R1/R1A4cover.png);
+        background-size: 35vw 39vw;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #subs1> :nth-child(5) {
+        background-image: url(../Releases/R1/R1A5cover.png);
+        background-size: 35vw 39vw;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
     /* End of Main*/
 
     /*Footer*/
 
-    .panel-footer section{
+    .panel-footer section {
         margin-bottom: 30px;
         text-align: center;
     }
 
-    .panel-footer section:nth-child(3){
+    .panel-footer section:nth-child(3) {
         margin-bottom: 0px;
     }
 
-    .panel-footer section hr{
+    .panel-footer section hr {
         width: 70%;
     }
 
@@ -1474,16 +1498,14 @@ div.navbar-brand h1 {
         margin-left: 40%;
     }
 
-    .btn{
+    .btn {
         width: 100px;
     }
 
-    .btn a{
+    .btn a {
         color: #292827;
         text-decoration: none;
     }
 
     /*End of Footer*/
 }
-
-
