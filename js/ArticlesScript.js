@@ -19,13 +19,3 @@ buttonRight2.onclick = function () {
 buttonLeft2.onclick = function () {
     document.getElementById('subs2').scrollLeft -= 500;
 };
-
-const buttonRight3 = document.getElementById('slideRight3');
-const buttonLeft3 = document.getElementById('slideLeft3');
-
-buttonRight3.onclick = function () {
-    document.getElementById('subs3').scrollLeft += 500;
-};
-buttonLeft3.onclick = function () {
-    document.getElementById('subs3').scrollLeft -= 500;
-};
